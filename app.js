@@ -6,7 +6,7 @@ app.get('/health', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Hello!' });
+  res.json({ message: 'Hello!12' });
 });
 
 app.listen(3000, () => console.log('Running'));
